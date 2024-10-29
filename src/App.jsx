@@ -22,6 +22,7 @@ function App() {
           </div>
         )}
       />
+      <h1>Hello World</h1>
       <button
         onClick={() =>
           openModal({ name: "customModal", params: { userId: "123" } })
